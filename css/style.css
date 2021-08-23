@@ -1,16 +1,18 @@
 /* Style Settings */
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
     --bgColor:#1C1C1C;
     --accentColor: #E6E6E6;
-    --font: 'Karla', sans-serif;
+    --font: 'Roboto', sans-serif;
 }
 
-body{
+body {
     background-color: var(--bgColor);
+    text-align: center;
+
 }
 
-#userPhoto{
+#userPhoto {
     width: 110px;
     height: 110px;
     display: block;
@@ -18,7 +20,7 @@ body{
     border-radius: 50%;
 }
 
-#userName{
+#userName {
     color: #bbb;
     font-size: 1rem;
     font-weight: 600;
@@ -26,22 +28,20 @@ body{
     display: block;
     font-family: var(--font);
     width: 100%;
-    text-align: center;
-    text-decoration: none;
 }
 
-#links{
+#links {
     max-width: 675px;
     width: auto;
     display: block;
     margin: 27px auto;
 }
-.link{
+
+.link {
     display: block;
     background-color: var(--accentColor);
     color: var(--bgColor);
     font-family: var(--font);
-    text-align: center;
     margin-bottom: 20px;
     padding: 17px;
     text-decoration: none;
@@ -50,7 +50,15 @@ body{
     border: solid var(--accentColor) 2px;
 }
 
-.link:hover{
+.link:hover {
     background-color: var(--bgColor);
+    color: var(--accentColor);
+}
+
+#footer > a {
+    padding: 10px;
+}
+
+#footer > a > span {
     color: var(--accentColor);
 }
